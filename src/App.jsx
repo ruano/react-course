@@ -6,6 +6,7 @@ import Random from './components/basics/Aleatorio'
 import Card from './components/layout/Card'
 import './App.css'
 import Family from './components/basics/Family'
+import FamilyMember from './components/basics/FamilyMember'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
@@ -15,7 +16,11 @@ export default _ =>
             <div className="Cards">            
                 
                 <Card title="#06 - Component with children" color="#BF65B2">
-                    <Family lastName="Ferreira"></Family>
+                    <Family lastName="Silva">
+                        <FamilyMember name="Pedro"/>
+                        <FamilyMember name="Ana"/>
+                        <FamilyMember name="Gustavo"/>
+                    </Family>
                 </Card>
 
                 
