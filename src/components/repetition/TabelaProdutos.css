@@ -2,14 +2,14 @@
     width: 100%;
 }
 
-.TabelaProdutos th {
-    background-color: coral;
+.TabelaProdutos thead {
+    background-color: rgb(25, 15, 129);
 }
 
 .TabelaProdutos .Par {
-    background-color: violet;
+    background-color: gray;
 }
 
 .TabelaProdutos .Impar {
-    background-color: blue
+    background-color: silver
 }
