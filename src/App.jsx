@@ -7,14 +7,25 @@ import Card from './components/layout/Card'
 import './App.css'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
+import StudentsList from './components/repetition/StudentsList'
+import TabelaProdutos from './components/repetition/TabelaProdutos'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
         <div className="App">
             <h1>React Fundamentals</h1>
 
-            <div className="Cards">            
+            <div className="Cards">
+
+                <Card title="#08 - Desafio Repetição" color="#9C7534">
+                    <TabelaProdutos />                    
+                </Card>
+
                 
+                <Card title="#07 - Repetição" color="#DF9418">
+                    <StudentsList />                    
+                </Card>
+
                 <Card title="#06 - Component with children" color="#BF65B2">
                     <Family lastName="Silva">
                         <FamilyMember name="Pedro"/>
