@@ -11,6 +11,8 @@ import StudentsList from './components/repetition/StudentsList'
 import TabelaProdutos from './components/repetition/TabelaProdutos'
 import ParOuImpar from './components/conditional/ParOuImpar'
 import UserInfo from './components/conditional/UserInfo'
+import DiretaPai from './components/comunication/DiretaPai'
+import IndiretaPai from './components/comunication/IndiretaPai'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
@@ -18,6 +20,14 @@ export default _ =>
             <h1>React Fundamentals</h1>
 
             <div className="Cards">
+
+                <Card title="#11 - Comunicação indireta" color="#1E162D">
+                    <IndiretaPai />
+                </Card>
+
+                <Card title="#10 - Comunicação direta" color="#6D657C">
+                    <DiretaPai />
+                </Card>
 
                 <Card title="#09 - Renderização condicional" color="#32A615">
                     <ParOuImpar number={21} />
