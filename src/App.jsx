@@ -9,6 +9,8 @@ import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
 import StudentsList from './components/repetition/StudentsList'
 import TabelaProdutos from './components/repetition/TabelaProdutos'
+import ParOuImpar from './components/conditional/ParOuImpar'
+import UserInfo from './components/conditional/UserInfo'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
@@ -16,6 +18,12 @@ export default _ =>
             <h1>React Fundamentals</h1>
 
             <div className="Cards">
+
+                <Card title="#09 - Renderização condicional" color="#32A615">
+                    <ParOuImpar number={21} />
+                    <UserInfo user={{ name: 'Ruano' }} />
+                    <UserInfo user={{ emails: 'ruano.martinez@gmail.com' }} />
+                </Card>
 
                 <Card title="#08 - Desafio Repetição" color="#9C7534">
                     <TabelaProdutos />                    
