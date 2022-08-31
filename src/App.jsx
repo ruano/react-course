@@ -13,6 +13,7 @@ import ParOuImpar from './components/conditional/ParOuImpar'
 import UserInfo from './components/conditional/UserInfo'
 import DiretaPai from './components/comunication/DiretaPai'
 import IndiretaPai from './components/comunication/IndiretaPai'
+import Input from './components/formulario/Input'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
@@ -20,6 +21,10 @@ export default _ =>
             <h1>React Fundamentals</h1>
 
             <div className="Cards">
+
+                <Card title="#12 - Componente controlado (input)" color="#5108DA">
+                    <Input />
+                </Card>
 
                 <Card title="#11 - Comunicação indireta" color="#1E162D">
                     <IndiretaPai />
