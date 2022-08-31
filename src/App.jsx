@@ -14,6 +14,7 @@ import UserInfo from './components/conditional/UserInfo'
 import DiretaPai from './components/comunication/DiretaPai'
 import IndiretaPai from './components/comunication/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => 
@@ -21,6 +22,10 @@ export default _ =>
             <h1>React Fundamentals</h1>
 
             <div className="Cards">
+
+                <Card title="#13 - Contador" color="#A71A89">
+                    <Contador numeroInicial={120} />
+                </Card>
 
                 <Card title="#12 - Componente controlado (input)" color="#5108DA">
                     <Input />
