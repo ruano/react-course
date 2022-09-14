@@ -1,4 +1,3 @@
-import { toHaveFocus } from "@testing-library/jest-dom/dist/matchers";
 import React from "react";
 import './Contador.css'
 import Display from './Display'
